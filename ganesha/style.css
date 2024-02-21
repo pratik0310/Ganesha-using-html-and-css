@@ -1,0 +1,405 @@
+
+/* for body tag in html */
+body{
+    height: 150vh;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+   
+}
+
+/* it is a container that holds whole structure */
+#home{
+
+   height:100%;
+    width:100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+/* belowed container rpresent face of ganesha */
+
+#head{
+    height:40vh;
+    width:15vw;
+    background-color: orangered;
+    border-radius: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+    box-shadow: 10px 10px 30px gold;
+
+
+}
+
+/* Both ears of ganesha */
+
+.ear{
+    border-radius: 20px;
+}
+#e1{
+    position:relative;
+   
+    right:50px;
+   border-right:100px solid orangered;
+   border-top: 40px solid transparent;
+   border-bottom: 40px solid transparent;
+    height:70px;
+    width: 0;
+    
+}
+#e2{
+
+
+     position: relative;
+     
+    left:50px;
+
+   border-left:100px solid orangered;
+   border-top: 40px solid transparent;
+   border-bottom: 40px solid transparent;
+    height:70px;
+    width: 0;
+}
+
+
+
+/* only body of  ganesha */
+#body{
+    position: absolute;
+    top:70vh;
+    height:40vh;
+    width:20vw;
+    background-color: orangered;
+    border-radius: 100px;
+    box-shadow: 10px 10px 30px gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+
+/* long nose of ganesha */
+#nose{
+    height:25vh;
+    width:2vw;
+    background-color:orangered;
+    border:2px solid white;
+    position:absolute;
+    top:58vh;
+    border-radius: 20px;
+}
+
+
+/* both eyes of ganesha */
+.eye{
+    background-color: white;
+    height:2vh;
+    width: 2vw;
+    margin:30px;
+    border-radius: 80%;
+
+
+}
+
+#i1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#i2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* pupil in the eyes */
+
+.pupil{
+    height:0.5vh;
+    width: 0.5vw;
+    background-color: black;
+    border-radius: 100%;
+}
+
+
+/* it is a container that holds both legs */
+#lower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:20vh;
+    width:40vw;
+    /* background-color: aqua; */
+    position:absolute;
+    top:100vh;
+}
+
+
+/* it represents both legs */
+
+.leg{
+    height:15vh;
+width: 20vw;
+background-color:white;
+border-radius:45%;
+}
+#l1{
+    transform: rotate(20deg);
+    margin:-30px;
+}
+
+#l2{
+    transform: rotate(-20deg);
+    margin:-30px; 
+}
+
+
+
+/* it represents both hands of ganesha */
+#h1{
+
+    position:absolute;
+    top:80vh;
+    height:7vh;
+    width: 10vw;
+    left:33vw;
+    background-color: orangered;
+    transform: rotate(-40deg);
+border-radius: 20px;
+}
+
+#h2{
+
+
+    position:absolute;
+    top:80vh;
+    height:7vh;
+    width: 10vw;
+    right:33vw;
+    background-color: orangered;
+    transform: rotate(40deg);
+    border-radius: 20px;
+
+}
+#ha1{
+
+    position:absolute;
+    top:79vh;
+    height:7vh;
+    width: 10vw;
+    left:27vw;
+    background-color: orangered;
+    transform: rotate(40deg);
+border-radius: 20px;
+}
+
+#ha2{
+
+
+    position:absolute;
+    top:79vh;
+    height:7vh;
+    width: 10vw;
+    right:27vw;
+    background-color: orangered;
+    transform: rotate(-40deg);
+    border-radius: 20px;
+
+}
+
+/* teeths of ganesha */
+
+#t1{
+    position: absolute;
+    top:64vh;
+    left:47vw;
+    /* background-color: white; */
+    height: 0;
+    width: 0;
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+    border-bottom: 2vh solid white;
+    transform: rotate(140deg);
+
+}
+
+#t2{
+    position: absolute;
+    top:63vh;
+    right:47.4vw;
+    background-color: white;
+    height: 3vh;
+    width: 0.7vw;
+    transform: rotate(-40deg);
+}
+
+/* #tilak{
+    height: 6vh;
+    width: 1.5vw;
+    background-color:rgb(187, 17, 17);
+   position:relative;
+   top:-10vh;
+   left: 6.2vw;
+   border-radius: 80%;
+
+} */
+
+
+/* damaru of ganesha */
+
+#d1{
+    position: absolute;
+    top:75vh;
+    right: 25vw;
+    border-right:70px solid #A1662F;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+     height:40px;
+     width: 0;
+     transform:rotate(45deg);
+   
+} 
+#d2{
+
+    position: absolute;
+    top:68vh;
+    right: 28.2vw;
+    border-right:70px solid#A1662F;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+     height:40px;
+     width: 0;
+     transform:rotate(-134deg);
+    
+}
+
+/* it represents moti mala */
+
+#mala{
+    position: relative;
+    top:-15vh;
+     height:28vh;
+     width: 10vw;
+     /* background-color: red; */
+     border:7px dotted gold;
+      border-radius: 50%;
+}
+
+
+/* it is book in hands of ganesha */
+#book{
+    position:absolute;
+    left:25vw;
+    top:62vh;
+    height:20vh;
+    width: 7vw;
+    background-color: rgb(95, 20, 20);
+    transform: rotate(40deg);
+    box-shadow: 10px 10px 30px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-size: 10px;
+color: gold;
+}
+
+/* it reprresent kada */
+.kada{
+    height:2vh;
+    width: 3vw;
+    background-color: gold;
+    
+}
+
+
+/* it gives properties to hand class */
+.hand{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#k1{
+    transform:rotate(90deg)
+}
+
+#k2{
+    transform:rotate(-90deg)
+
+}
+
+/* earings of ganesha */
+.earing{
+    position:relative;
+    top:11vh;
+
+    background-color: gold;
+    height:1.5vh;
+    width: 0.5vw;
+ border-radius:100%;
+}
+
+#er1{
+    position:relative;
+    left:5.6vw;
+}
+
+#er2{
+    position:relative;
+   right:6vw;
+}
+
+/* #moti{
+
+    position: relative;
+    top:10vh;
+    left:-6.5vw;
+height:2vh;
+width:2vw;
+background-color: red;
+/* top:10vh; */
+
+
+/* images of coding languages */
+
+#js{
+    position:absolute;
+    top:30vh;
+    left:10vw;
+ 
+}
+
+#py{
+    position:absolute;
+    top:30vh;
+    right:10vw;
+  
+
+}
+
+#css{
+    position:absolute;
+    top:90vh;
+    right:10vw;
+
+}
+
+
+#html{
+    position:absolute;
+    top:90vh;
+    left:10vw;
+    
+
+}
